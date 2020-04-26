@@ -1,3 +1,5 @@
+//hey there! I've deployed this at: https://redirect.kayala.workers.dev
+
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
